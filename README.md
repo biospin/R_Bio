@@ -28,8 +28,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 - [윈도우즈 환경에서 Jupyter와 R연동](https://github.com/biospin/BigBio/blob/master/reference/Jupyter%EC%99%80R%EC%97%B0%EB%8F%99%EB%B0%A9%EB%B2%95.md)
 - [Markdown 문법](https://github.com/biospin/BigBio/blob/master/reference/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4.md)
 - [Spark - 무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=154)
-- [Hadoop - 무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=117)
-
+- [Spark 실습환경구축](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark%20CH1_2_Learning%20Spark.pdf)
 
 ## 장소
 1. 장소: 토즈 신촌  아트레온토즈점 ( http://www.toz.co.kr/branch/main/index.htm?id=6 )
