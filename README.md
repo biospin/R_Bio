@@ -1,4 +1,4 @@
-# 알바이오
+# 알바이오 : 바닦부터 시작하는 R + 바이오인포
 
 <img src="https://github.com/biospin/R_Bio/blob/master/data-scientist-kid.jpg"/>
 
