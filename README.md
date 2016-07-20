@@ -1,6 +1,6 @@
 # 알바이오
 
-<img src="https://github.com/biospin/BigBio/blob/master/main01.jpg?raw=true" width="500" height="300" />
+<img src="https://github.com/biospin/R_Bio/blob/master/main01.png" width="500" height="300" />
 
 ## 스터디 정보
 바닦부터  R과 바이오인포을 시작하여  R과 바이오인포를 마스터 하는 것을 목표로 하는  실습형  스터디입니다.   
