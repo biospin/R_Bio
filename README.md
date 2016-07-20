@@ -40,7 +40,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 
 ### Part 1.
 
-|seq.|    날짜      |내용                                                                                      | 후기
+|seq.|    날짜        |     내용                                                                                      | 후기
 |----| ---------|----------------------------------------------|-----
 |  1 |2016. 7.26|(R 기초) R컴퓨팅 :  R설치 및 실습환경 구축,  제3장  데이터 입력과 출력
 |    |          |(R 중급 )  ISL : 2장 Statistical Learning 
@@ -62,3 +62,69 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 바이오) R for Bioinformatics : Pairwise Sequence Alignment
 |    |          |(R 고급)   Spark R : http://spark.apache.org/docs/latest/sparkr.html
 
+
+### Part 2.
+
+|seq.|    날짜        |내용                                                                                                  | 후기
+|----| ---------|----------------------------------------------|-----
+|  1 |2016. 8.23|(R 기초) R컴퓨팅 : 제7장  R 데이터 탐색
+|    |          |(R 중급 )  ISL : 6 Linear Model Selection and Regularization
+|    |          |(R 바이오) R for Bioinformatics : Multiple Alignment and Phylogenetic trees
+|    |          |(R 고급)   https://cloud.google.com/genomics/gatk : Broad Institute GATK on Google Genomics 와  http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html  :
+|    |          |        Docs » Process Data on Google Cloud »  Run workflows and common tasks in parallel
+|  2 |2016. 8.30|(R 기초) R컴퓨팅 : 제8장  R 그래프
+|    |          |(R 중급 )  ISL :  7 Moving Beyond Linearity
+|    |          |(R 바이오) R for Bioinformatics : Computational Gene-finding
+|    |          |(R 고급)  (DataAlgorithm) 1장. Secondary Sort을 Spark-R로 구현
+|  3 |2016. 9. 6|(R 기초) R컴퓨팅 : 제9장  R 시뮬레이션
+|    |          |(R 중급 )  ISL :  8 Tree-Based Methods
+|    |          |(R 바이오) R for Bioinformatics : Comparative Genomics
+|    |          |(R 고급)   (구글 genomics)Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine
+|  4 |2016. 9.13|(R 기초) R컴퓨팅 : 제10장  R 통계모형
+|    |          |(R 중급 )  ISL :  9 Support Vector Machines
+|    |          |(R 바이오) R for Bioinformatics : Hidden Markov Models
+|    |          |(R 고급)    (DataAlgorithm) 3장. Top 10 List을 Spark-R로 구현
+
+
+### Part 3.
+
+|seq.|    날짜        |내용                                                                                                  | 후기
+|----| ---------|----------------------------------------------|-----
+|  1 |2016. 9.20|(R 기초) 데이터시각화 : 2 장 탐색적 자료분석
+|    |          |(R 중급 )  ISL : 10 Unsupervised Learning
+|    |          |(R 바이오) R for Bioinformatics : Protein-Protein Interaction Graphs
+|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html  : Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine
+|  2 |2016. 9.27|(R 기초) 데이터시각화 : 3 장 이변량 데이터의 시각화
+|    |          |(R 중급 )  R 고급활용 :  제1장 R 데이터 처리
+|    |          |(R 바이오) Biomedical Data Science : 0 - Introduction, 1 - Inference  CLT in Practice까지
+|    |          |(R 고급)   (DataAlgorithm) 4장. Left Outer Join을 Spark-R로 구현
+|  3 |2016.10. 4|(R 기초) 데이터시각화 : 4 장 시계열의 시각화
+|    |          |(R 중급 )  R 고급활용 :  제2장 통계계산
+|    |          |(R 바이오) Biomedical Data Science : 1 - Inference  t-tests in Practice부터
+|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html  : Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers
+|  4 |2016.10.11|(R 기초) 데이터시각화 : 5 장 지리적 데이터의 시각화
+|    |          |(R 중급 )  R 고급활용 : 제3장 통계추론
+|    |          |(R 바이오) Biomedical Data Science : 2 ~ 4 - Matrix Algebra
+|    |          |(R 고급)  (DataAlgorithm) 7장. Market Basket Analysis을 Spark-R로 구현 
+
+
+### Part 4.
+
+|seq.|    날짜        |내용                                                                                                  | 후기
+|----| ---------|----------------------------------------------|-----
+|  1 |2016.10.18|(R 기초) 데이터시각화 : 6 장 텍스트 데이터의 시각화 - 워드 클라우드
+|    |          |(R 중급 )  R 고급활용 : 제4장 R 통계 그래픽스
+|    |          |(R 바이오) Biomedical Data Science : 5 - Linear Models
+|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html : Docs » Process Data on Google Cloud » Run SAMtools to index BAM files in Cloud Storage
+|  2 |2016.10.25|(R 기초) 데이터시각화 : 7 장 다변량 데이터의 시각화
+|    |          |(R 중급 ) R 고급활용 : 제5장 R을 이용한 고급 그래픽 기법
+|    |          |(R 바이오) Biomedical Data Science : 6 - Inference for High-Dimensional ,7 - Statistical Modeling
+|    |          |(R 고급)  (DataAlgorithm) 10장. Content-Based Recommendation: Movies을 Spark-R로 구현
+|  3 |2016.11. 1|(R 기초) 데이터시각화 : 8 장 웹을 이용한 동적 · 대화형 데이터 시각화
+|    |          |(R 중급 )  R 고급활용 : 제6장 일반화 선형모형
+|    |          |(R 바이오) Biomedical Data Science : 8 - Distance and Dimension Reduction  
+|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_reads/index.html  : Docs » Analyze Data in Google Genomics » Analyze Reads
+|  4 |2016.11. 8|(R 중급 )  R 고급활용 : 제7장 분류분석
+|    |          |(R 바이오) Biomedical Data Science :  9 - Practical Machine Learning
+|    |          |(R 바이오) Biomedical Data Science :  10 - Batch Effects
+|    |          |(R 고급)   (DataAlgorithm) 11장. Smarter Email Marketing with the Markov Model을 Spark-R로 구현
