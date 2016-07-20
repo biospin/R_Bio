@@ -46,11 +46,10 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |  1 |2016. 7.26|(R 기초) R컴퓨팅 :  R설치 및 실습환경 구축,  제3장  데이터 입력과 출력
 |    |          |(R 중급 )  ISL : 2장 Statistical Learning 
 |    |          |(R 바이오) R for Bioinformatics : DNA Sequence Statistics (1)
-|    |          |(R 고급)   (구글 genomics) https://cloud.google.com/genomics/install-genomics-tools :  
-    How-to Guide : Installing the Cloud SDK and Genomics Commands 
-                             1.Download and install the Cloud SDK.
-                             2.Initialize the Cloud SDK.
-                             3.After you have run gcloud init, install the Genomics commands:
+|    |          |(R 고급)   (구글 genomics) https://cloud.google.com/genomics/install-genomics-tools :  How-to Guide : Installing the Cloud SDK and Genomics Commands 
+|    |          |            1.Download and install the Cloud SDK.
+|    |          |            2.Initialize the Cloud SDK.
+|    |          |            3.After you have run gcloud init, install the Genomics commands:
 |  2 |2016. 8. 2|(R 기초) R컴퓨팅 : 제5장  프로그래밍 구조
 |    |          |(R 중급 )  ISL : 4장 Classification
 |    |          |(R 바이오) R for Bioinformatics : Sequence Databases
@@ -58,9 +57,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |  3 |2016. 8. 9|(R 기초) R컴퓨팅 : 제5장  프로그래밍 
 |    |          |(R 중급 )  ISL : 4장 Classification
 |    |          |(R 바이오) R for Bioinformatics : Sequence Databases
-|    |          |(R 고급)  (구글 genomics) https://cloud.google.com/genomics/v1/analyze-variants : 
-    How-to Guide: Analyze Variants Using BigQuery  와  https://cloud.google.com/genomics/v1/load-variants : 
-    How-to Guide :  Loading Genomic Variants
+|    |          |(R 고급)  (구글 genomics) https://cloud.google.com/genomics/v1/analyze-variants : How-to Guide: Analyze Variants Using BigQuery  와  https://cloud.google.com/genomics/v1/load-variants : How-to Guide :  Loading Genomic Variants
 |  4 |2016. 8.16|(R 기초) R컴퓨팅 : 제6장  함수의 생성
 |    |          |(R 중급 )  ISL : 5장 Resampling Methods 
 |    |          |(R 바이오) R for Bioinformatics : Pairwise Sequence Alignment
