@@ -49,7 +49,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |            1.Download and install the Cloud SDK.
 |    |          |            2.Initialize the Cloud SDK.
 |    |          |            3.After you have run gcloud init, install the Genomics commands:
-|  2 |2016. 8. 2|(R 기초) R컴퓨팅 : 제5장  프로그래밍 구조
+|  2 |2016. 8. 2|(R 기초) R컴퓨팅 : 제4장  데이터 구조
 |    |          |(R 중급 )  ISL : 4장 Classification
 |    |          |(R 바이오) R for Bioinformatics : Sequence Databases
 |    |          |(R 고급)   Spark에 대한 소개 및 Spark 실습환경,  간단한 예제 돌려보기
@@ -128,3 +128,5 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 바이오) Biomedical Data Science :  9 - Practical Machine Learning
 |    |          |(R 바이오) Biomedical Data Science :  10 - Batch Effects
 |    |          |(R 고급)   (DataAlgorithm) 11장. Smarter Email Marketing with the Markov Model을 Spark-R로 구현
+
+
