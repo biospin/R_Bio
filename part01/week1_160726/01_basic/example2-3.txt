@@ -1,0 +1,7 @@
+Current Innov Loc
+153 150 A
+151 149 B
+153 NA C
+158 145 D
+142 153 E
+miss 153 F
