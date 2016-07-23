@@ -42,7 +42,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 
 |seq.|    날짜        |     내용                                                                                      | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 7.26|(R 기초) R컴퓨팅 :  R설치 및 실습환경 구축,  제3장  데이터 입력과 출력
+|  1 |2016. 7.26|(R 기초) R컴퓨팅 :  R설치 및 실습환경 구축,  [제3장  데이터 입력과 출력](https://github.com/biospin/R_Bio/blob/master/part01/week1_160726/01_basic/3%EC%9E%A5%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%9E%85%EB%A0%A5%EA%B3%BC%20%EC%B6%9C%EB%A0%A5.ipynb)
 |    |          |(R 중급 )  ISL : 2장 Statistical Learning 
 |    |          |(R 바이오) R for Bioinformatics : DNA Sequence Statistics (1)
 |    |          |(R 고급)   (구글 genomics) https://cloud.google.com/genomics/install-genomics-tools :  How-to Guide : Installing the Cloud SDK and Genomics Commands 
