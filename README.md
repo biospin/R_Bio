@@ -30,6 +30,9 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 - [Spark - 무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=154)
 - [Spark 실습환경구축](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark%20CH1_2_Learning%20Spark.pdf)
 - [도커로 스파크 시작하기](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark_ch02example.ipynb)
+- [빅바이오](https://github.com/biospin/BigBio)
+- [딥바이오](https://github.com/biospin/DeepBio)
+
 
 ## 장소
 1. 장소: 토즈 신촌  아트레온토즈점 ( http://www.toz.co.kr/branch/main/index.htm?id=6 )
