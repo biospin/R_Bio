@@ -50,9 +50,6 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 중급 )  ISL : 2장 Statistical Learning (김가경)
 |    |          |(R 바이오) [R for Bioinformatics : DNA Sequence Statistics (1)](https://github.com/biospin/R_Bio/blob/master/part01/week1_160726/R-Bio-Processing.pdf) (이승우)
 |    |          |(R 고급)   (구글 genomics) https://cloud.google.com/genomics/install-genomics-tools :  How-to Guide : Installing the Cloud SDK and Genomics Commands [발표내용](https://github.com/biospin/R_Bio/blob/master/part01/week1_160726/R_bio_20160726_googlegenomics.pdf) (이병철)
-|    |          |            1.Download and install the Cloud SDK.
-|    |          |            2.Initialize the Cloud SDK.
-|    |          |            3.After you have run gcloud init, install the Genomics commands:
 |  2 |2016. 8. 2|(R 기초) R컴퓨팅 : 제4장  데이터 구조
 |    |          |(R 중급 )  ISL : 4장 Classification
 |    |          |(R 바이오) R for Bioinformatics : Sequence Databases
