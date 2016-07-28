@@ -51,7 +51,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 바이오) [R for Bioinformatics : DNA Sequence Statistics (1)](https://github.com/biospin/R_Bio/blob/master/part01/week1_160726/R-Bio-Processing.pdf) (이승우)
 |    |          |(R 고급)   (구글 genomics) https://cloud.google.com/genomics/install-genomics-tools :  How-to Guide : Installing the Cloud SDK and Genomics Commands [발표내용](https://github.com/biospin/R_Bio/blob/master/part01/week1_160726/R_bio_20160726_googlegenomics.pdf) (이병철)
 |  2 |2016. 8. 2|(R 기초) R컴퓨팅 : 제4장  데이터 구조(명충민)
-|    |          |(R 중급 )  ISL : 4장 Classification(지용기)
+|    |          |(R 중급 )  ISL : 3장 Linear Regression(지용기)
 |    |          |(R 바이오) R for Bioinformatics : Sequence Databases(양윤주)
 |    |          |(R 고급)   Spark에 대한 소개 및 Spark 실습환경,  간단한 예제 돌려보기(김가경)
 |  3 |2016. 8. 9|(R 기초) R컴퓨팅 : 제5장  프로그래밍 
