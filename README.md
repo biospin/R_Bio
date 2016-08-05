@@ -52,16 +52,16 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 고급)   (구글 genomics) https://cloud.google.com/genomics/install-genomics-tools :  How-to Guide : Installing the Cloud SDK and Genomics Commands [발표내용](https://github.com/biospin/R_Bio/blob/master/part01/week1_160726/R_bio_20160726_googlegenomics.pdf) (이병철)
 |  2 |2016. 8. 2|(R 기초) R컴퓨팅 : 제4장  데이터 구조(명충민)
 |    |          |(R 중급 ) [ISL : 3장 Linear Regression](https://github.com/biospin/R_Bio/blob/master/part01/week2_160802/ISL/ISL_chapter03_LinearRegression.ipynb) (지용기)
+|    |          |(R 바이오) [R for Bioinformatics : Sequence Databases](https://github.com/biospin/R_Bio/blob/master/part01/week2_160802/rbio/RBio_DNA%20seq%20stat_Yunju%20Yang.pdf), [코드](https://github.com/biospin/R_Bio/blob/master/part01/week2_160802/rbio/160802_Ch5.R)(양윤주)
+|    |          |(R 고급)   [Spark에 대한 소개 및 Spark 실습환경,  간단한 예제 돌려보기](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark%20CH1_2_Learning%20Spark.pdf)(지용기)
+|  3 |2016. 8. 9|(R 기초) R컴퓨팅 : 제5장  프로그래밍 (명충민)
+|    |          |(R 중급 )  ISL : 4장 Classification(황성원)
 |    |          |(R 바이오) R for Bioinformatics : Sequence Databases(양윤주)
-|    |          |(R 고급)   Spark에 대한 소개 및 Spark 실습환경,  간단한 예제 돌려보기(김가경)
-|  3 |2016. 8. 9|(R 기초) R컴퓨팅 : 제5장  프로그래밍 
-|    |          |(R 중급 )  ISL : 4장 Classification
-|    |          |(R 바이오) R for Bioinformatics : Sequence Databases
-|    |          |(R 고급)  (구글 genomics) https://cloud.google.com/genomics/v1/analyze-variants : How-to Guide: Analyze Variants Using BigQuery  와  https://cloud.google.com/genomics/v1/load-variants : How-to Guide :  Loading Genomic Variants
+|    |          |(R 고급)  (구글 genomics) https://cloud.google.com/genomics/v1/analyze-variants : How-to Guide: Analyze Variants Using BigQuery  와  https://cloud.google.com/genomics/v1/load-variants : How-to Guide :  Loading Genomic Variants (박혜진)
 |  4 |2016. 8.16|(R 기초) R컴퓨팅 : 제6장  함수의 생성
 |    |          |(R 중급 )  ISL : 5장 Resampling Methods 
 |    |          |(R 바이오) R for Bioinformatics : Pairwise Sequence Alignment
-|    |          |(R 고급)   Spark R : http://spark.apache.org/docs/latest/sparkr.html
+|    |          |(R 고급)   Spark R : http://spark.apache.org/docs/latest/sparkr.html (지용기)
 |    |          |                   http://spark.rstudio.com/index.html
 
 
