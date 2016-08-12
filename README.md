@@ -54,13 +54,13 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 중급 ) [ISL : 3장 Linear Regression](https://github.com/biospin/R_Bio/blob/master/part01/week2_160802/ISL/ISL_chapter03_LinearRegression.ipynb) (지용기)
 |    |          |(R 바이오) [R for Bioinformatics : Sequence Databases](https://github.com/biospin/R_Bio/blob/master/part01/week2_160802/rbio/RBio_DNA%20seq%20stat_Yunju%20Yang.pdf), [코드](https://github.com/biospin/R_Bio/blob/master/part01/week2_160802/rbio/160802_Ch5.R)(양윤주)
 |    |          |(R 고급)   [Spark에 대한 소개 및 Spark 실습환경,  간단한 예제 돌려보기](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark%20CH1_2_Learning%20Spark.pdf)(지용기)
-|  3 |2016. 8. 9|(R 기초) R컴퓨팅 : 제5장  프로그래밍 (명충민)
-|    |          |(R 중급 )  ISL : 4장 Classification(황성원)
+|  3 |2016. 8. 9|(R 기초) R컴퓨팅 : [4장 리스트](https://github.com/biospin/R_Bio/blob/master/part01/week3_160809/4%EC%9E%A5.%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B5%AC%EC%A1%B0.%EB%A6%AC%EC%8A%A4%ED%8A%B8.ipynb), [제5장  프로그래밍](https://github.com/biospin/R_Bio/blob/master/part01/week3_160809/5%EC%9E%A5.%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.%EA%B5%AC%EC%A1%B0.ipynb) (명충민)
+|    |          |(R 중급 )  ISL : [4장 Classification](https://github.com/biospin/R_Bio/blob/master/part01/week3_160809/Classification%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_SW_MK_Final.pdf)(황성원)
 |    |          |(R 바이오) R for Bioinformatics : Sequence Databases(양윤주)
 |    |          |(R 고급)  (구글 genomics) https://cloud.google.com/genomics/v1/analyze-variants : How-to Guide: Analyze Variants Using BigQuery  와  https://cloud.google.com/genomics/v1/load-variants : How-to Guide :  Loading Genomic Variants (박혜진)
-|  4 |2016. 8.16|(R 기초) R컴퓨팅 : 제6장  함수의 생성
-|    |          |(R 중급 )  ISL : 5장 Resampling Methods 
-|    |          |(R 바이오) R for Bioinformatics : Pairwise Sequence Alignment
+|  4 |2016. 8.16|(R 기초) R컴퓨팅 : 제6장  함수의 생성 (명충민)
+|    |          |(R 중급 )  ISL : 5장 Resampling Methods (황성원)
+|    |          |(R 바이오) R for Bioinformatics : Pairwise Sequence Alignment(이병철)
 |    |          |(R 고급)   Spark R : http://spark.apache.org/docs/latest/sparkr.html (지용기)
 |    |          |                   http://spark.rstudio.com/index.html
 
