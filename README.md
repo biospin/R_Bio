@@ -61,8 +61,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |  4 |2016. 8.16|(R 기초) R컴퓨팅 : 제6장  함수의 생성 (명충민)
 |    |          |(R 중급 )  ISL : 5장 Resampling Methods (황성원)
 |    |          |(R 바이오) R for Bioinformatics : Pairwise Sequence Alignment(이병철)
-|    |          |(R 고급)   Spark R : http://spark.apache.org/docs/latest/sparkr.html (지용기)
-|    |          |                   http://spark.rstudio.com/index.html
+|    |          |(R 고급)   Spark R : http://spark.apache.org/docs/latest/sparkr.html [발표내용](https://github.com/biospin/R_Bio/blob/master/part01/week4_160816/spark/spark_R.ipynb) (지용기)
+|    |          |                   http://spark.rstudio.com/index.html [발표내용](https://github.com/biospin/R_Bio/blob/master/part01/week4_160816/spark/sparklyr.ipynb)
 
 
 ### Part 2.
