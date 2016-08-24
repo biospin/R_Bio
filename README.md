@@ -1,6 +1,6 @@
 # 알바이오 : 바닥부터 시작하는 R + 바이오인포
 
-<img src="https://github.com/biospin/R_Bio/blob/master/data-scientist-kid.jpg"/>
+<img src="https://github.com/biospin/R_Bio/blob/master/datascienceman.jpg"/>
 
 ## 스터디 정보
 바닥부터  R과 바이오인포을 시작하여  R과 바이오인포를 마스터 하는 것을 목표로 하는  실습형  스터디입니다.   
@@ -59,8 +59,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 바이오) R for Bioinformatics : Sequence Databases(양윤주)
 |    |          |(R 고급)  (구글 genomics) https://cloud.google.com/genomics/v1/analyze-variants : How-to Guide: Analyze Variants Using BigQuery  와  https://cloud.google.com/genomics/v1/load-variants : How-to Guide :  Loading Genomic Variants (박혜진)
 |  4 |2016. 8.16|(R 기초) R컴퓨팅 : 제6장  함수의 생성 (명충민)
-|    |          |(R 중급 )  ISL : 5장 Resampling Methods (황성원)
-|    |          |(R 바이오) R for Bioinformatics : Pairwise Sequence Alignment(이병철)
+|    |          |(R 중급 )  ISL : [5장 Resampling Methods](https://github.com/biospin/R_Bio/blob/master/part01/week4_160816/Resampling%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_SW_MK_Final.pdf) (황성원)
+|    |          |(R 바이오) [R for Bioinformatics : Pairwise Sequence Alignment]()(이병철)
 |    |          |(R 고급)   Spark R : http://spark.apache.org/docs/latest/sparkr.html [발표내용](https://github.com/biospin/R_Bio/blob/master/part01/week4_160816/spark/spark_R.ipynb) (지용기)
 |    |          |                   http://spark.rstudio.com/index.html [발표내용](https://github.com/biospin/R_Bio/blob/master/part01/week4_160816/spark/sparklyr.ipynb)
 
@@ -69,15 +69,15 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 
 |seq.|    날짜        |내용                                                                                                  | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 8.23|(R 기초) R컴퓨팅 : 제7장  R 데이터 탐색
-|    |          |(R 중급 )  ISL : 6 Linear Model Selection and Regularization
-|    |          |(R 바이오) R for Bioinformatics : Multiple Alignment and Phylogenetic trees
-|    |          |(R 고급)   https://cloud.google.com/genomics/gatk : Broad Institute GATK on Google Genomics 와  http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html  :
+|  1 |2016. 8.23|(R 기초) R컴퓨팅 : 제7장  R 데이터 탐색(명충민)
+|    |          |(R 중급 )  ISL : [6 Linear Model Selection and Regularization](https://github.com/biospin/R_Bio/blob/master/part02/week1_160823/Linear%20Model%20Selection%20and%20Regularization_1%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_SW_MK_Final.pdf) (황성원)
+|    |          |(R 바이오) R for Bioinformatics : Multiple Alignment and Phylogenetic trees(이승우)
+|    |          |(R 고급)   https://cloud.google.com/genomics/gatk : Broad Institute GATK on Google Genomics 와  http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html  : (이병철)
 |    |          |        Docs » Process Data on Google Cloud »  Run workflows and common tasks in parallel
-|  2 |2016. 8.30|(R 기초) R컴퓨팅 : 제8장  R 그래프
-|    |          |(R 중급 )  ISL :  7 Moving Beyond Linearity
-|    |          |(R 바이오) R for Bioinformatics : Computational Gene-finding
-|    |          |(R 고급)  (DataAlgorithm) 1장. Secondary Sort을 Spark-R로 구현
+|  2 |2016. 8.30|(R 기초) R컴퓨팅 : 제8장  R 그래프(명충민)
+|    |          |(R 중급 )  ISL :  7 Moving Beyond Linearity (황성원)
+|    |          |(R 바이오) R for Bioinformatics : Computational Gene-finding (김가경)
+|    |          |(R 고급)  (DataAlgorithm) 1장. Secondary Sort을 Spark-R로 구현 (지용기)
 |  3 |2016. 9. 6|(R 기초) R컴퓨팅 : 제9장  R 시뮬레이션
 |    |          |(R 중급 )  ISL :  8 Tree-Based Methods
 |    |          |(R 바이오) R for Bioinformatics : Comparative Genomics
