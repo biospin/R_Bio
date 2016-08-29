@@ -77,7 +77,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |  2 |2016. 8.30|(R 기초) R컴퓨팅 : 제8장  R 그래프(명충민)
 |    |          |(R 중급 )  ISL :  7 Moving Beyond Linearity (황성원)
 |    |          |(R 바이오) R for Bioinformatics : Computational Gene-finding (김가경)
-|    |          |(R 고급)  (DataAlgorithm) 1장. Secondary Sort을 Spark-R로 구현 (지용기)
+|    |          |(R 고급)  [(DataAlgorithm) 1장. Secondary Sort을 Spark-R로 구현](https://github.com/biospin/R_Bio/blob/master/part02/week2_160830/sparkR/SparkR_chap01.SecondarySort.ipynb),[PySpark로 구현 ](https://github.com/biospin/R_Bio/blob/master/part02/week2_160830/sparkR/Chap01_SecondarySort.ipynb)(지용기)
 |  3 |2016. 9. 6|(R 기초) R컴퓨팅 : 제9장  R 시뮬레이션
 |    |          |(R 중급 )  ISL :  8 Tree-Based Methods
 |    |          |(R 바이오) R for Bioinformatics : Comparative Genomics
