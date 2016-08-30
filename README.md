@@ -75,8 +75,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 고급)   https://cloud.google.com/genomics/gatk : Broad Institute GATK on Google Genomics 와  http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html  : (이병철)
 |    |          |        Docs » Process Data on Google Cloud »  Run workflows and common tasks in parallel
 |  2 |2016. 8.30|(R 기초) R컴퓨팅 : 제8장  R 그래프(명충민)
-|    |          |(R 중급 )  ISL :  7 Moving Beyond Linearity (황성원)
-|    |          |(R 바이오) R for Bioinformatics : Computational Gene-finding (김가경)
+|    |          |(R 중급 )  [ISL :  7 Moving Beyond Linearity](https://github.com/biospin/R_Bio/blob/master/part02/week2_160830/Linear%20Model%20Selection%20and%20Regularization_2%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_SW_MK_Final.pdf) (황성원)
+|    |          |(R 바이오) [R for Bioinformatics : Computational Gene-finding](https://github.com/biospin/R_Bio/blob/master/part02/week2_160830/CHR7_ComputationalGeneFinding.ipynb) (김가경)
 |    |          |(R 고급)  [(DataAlgorithm) 1장. Secondary Sort을 Spark-R로 구현](https://github.com/biospin/R_Bio/blob/master/part02/week2_160830/sparkR/SparkR_chap01.SecondarySort.ipynb),[PySpark로 구현 ](https://github.com/biospin/R_Bio/blob/master/part02/week2_160830/sparkR/Chap01_SecondarySort.ipynb)(지용기)
 |  3 |2016. 9. 6|(R 기초) R컴퓨팅 : 제9장  R 시뮬레이션
 |    |          |(R 중급 )  ISL :  8 Tree-Based Methods
