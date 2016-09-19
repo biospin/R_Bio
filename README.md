@@ -80,7 +80,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 고급)  [(DataAlgorithm) 1장. Secondary Sort을 Spark-R로 구현](https://github.com/biospin/R_Bio/blob/master/part02/week2_160830/sparkR/SparkR_chap01.SecondarySort.ipynb),[PySpark로 구현 ](https://github.com/biospin/R_Bio/blob/master/part02/week2_160830/sparkR/Chap01_SecondarySort.ipynb)(지용기)
 |  3 |2016. 9. 6|(R 기초) R컴퓨팅 : 제9장  R 시뮬레이션
 |    |          |(R 중급 ) [ISL :  7 Moving Beyond Linearity](https://github.com/biospin/R_Bio/blob/master/part02/week3_160906/Moving%20Beyond%20Linearity%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_SW_MK_Final.pdf)
-|    |          |(R 바이오) R for Bioinformatics : Comparative Genomics
+|    |          |(R 바이오) [R for Bioinformatics : Comparative Genomics](https://github.com/biospin/R_Bio/blob/master/part02/week3_160906/Comperative_Genomics%EC%9D%B4%EC%8A%B9%EC%9A%B0.pdf)
 |    |          |(R 고급) [(구글 genomics)Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine](https://github.com/biospin/R_Bio/tree/master/part02/week3_160906/googlegenomics)
 |  4 |2016. 9.13|(R 기초) R컴퓨팅 : 제10장  R 통계모형
 |    |          |(R 중급 )  ISL :  9 Support Vector Machines
