@@ -130,7 +130,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 고급)   (DataAlgorithm) 11장. Smarter Email Marketing with the Markov Model을 Spark-R로 구현
 |  4 |2016.11.22|(R 중급 )  R 고급활용 : 제7장 분류분석
 |    |          |(R 바이오) 525.6x: High-performance computing for reproducible genomics with Bioconductor (Week1,2)
-|  4 |2016.11.29|(R 바이오) 525.6x: High-performance computing for reproducible genomics with Bioconductor (Week3,4)
+|  5 |2016.11.29|(R 바이오) 525.6x: High-performance computing for reproducible genomics with Bioconductor (Week3,4)
 |    |          |(R 고급)   (DataAlgorithm) 12장. K-Means Clustering을 Spark-R로 구현
 
 
