@@ -89,8 +89,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |  5 |2016. 9.27|(바이오 특강) Heterozygote advantage in regulatory region of human genome (18:30~19:30)
 |    |          |(R 중급 )  ISL : 9 Support Vector Machines, 10 Unsupervised Learning
 |    |          |(R 바이오) R for Bioinformatics : Protein-Protein Interaction Graphs
-|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html  :
-Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine
+|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html  : Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine
 
 ### Part 3.
 
@@ -103,8 +102,7 @@ Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute 
 |  2 |2016.10.11|(R 기초) 데이터시각화 : 3 장 이변량 데이터의 시각화
 |    |          |(R 중급 )  R 고급활용 :  제2장 통계계산
 |    |          |(R 바이오) Biomedical Data Science : 1 - Inference  t-tests in Practice부터
-|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html  :
-Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers
+|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html  : Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers
 |  3 |2016.10.18|(R 기초) 데이터시각화 : 4 장 시계열의 시각화
 |    |          |(R 중급 )  R 고급활용 : 제3장 통계추론
 |    |          |(R 바이오) Biomedical Data Science : 2 ~ 4 - Matrix Algebra
@@ -112,8 +110,7 @@ Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemp
 |  4 |2016.10.25|(R 기초) 데이터시각화 : 5 장 지리적 데이터의 시각화
 |    |          |(R 중급 )  R 고급활용 : 제4장 R 통계 그래픽스
 |    |          |(R 바이오) Biomedical Data Science : 5 - Linear Models
-|    |          |(R 고급) (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html  :
-  Docs » Process Data on Google Cloud » Run SAMtools to index BAM files in Cloud Storage
+|    |          |(R 고급) (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html  : Docs » Process Data on Google Cloud » Run SAMtools to index BAM files in Cloud Storage
 
 
 ### Part 4.
@@ -127,8 +124,7 @@ Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemp
 |  2 |2016.11. 8|(R 기초) 데이터시각화 : 7 장 다변량 데이터의 시각화
 |    |          |(R 중급 )  R 고급활용 : 제6장 일반화 선형모형
 |    |          |(R 바이오) Biomedical Data Science : 8 - Distance and Dimension Reduction  
-|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_reads/index.html  :
-   Docs » Analyze Data in Google Genomics » Analyze Reads
+|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_reads/index.html  : Docs » Analyze Data in Google Genomics » Analyze Reads
 |  3 |2016.11.15|(R 기초) 데이터시각화 : 8 장 웹을 이용한 동적 · 대화형 데이터 시각화
 |    |          |(R 바이오) Biomedical Data Science :  9 - Practical Machine Learning, 10 - Batch Effects  
 |    |          |(R 고급)   (DataAlgorithm) 11장. Smarter Email Marketing with the Markov Model을 Spark-R로 구현
