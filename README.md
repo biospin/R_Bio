@@ -82,14 +82,14 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 중급 ) [ISL :  7 Moving Beyond Linearity](https://github.com/biospin/R_Bio/blob/master/part02/week3_160906/Moving%20Beyond%20Linearity%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_SW_MK_Final.pdf)
 |    |          |(R 바이오) [R for Bioinformatics : Comparative Genomics](https://github.com/biospin/R_Bio/blob/master/part02/week3_160906/Comperative_Genomics%EC%9D%B4%EC%8A%B9%EC%9A%B0.pdf)
 |    |          |(R 고급) [(구글 genomics)Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine](https://github.com/biospin/R_Bio/tree/master/part02/week3_160906/googlegenomics)
-|  4 |2016. 9.20|(R 중급 )  ISL :  8 Tree-Based Methods (황성원)
-|    |          |(R 바이오) R for Bioinformatics : Hidden Markov Models (장수경)
-|    |          |(R 고급)    (DataAlgorithm) 3장. Top 10 List을 Spark-R로 구현 (지용기)
-|    |          |(바이오 특강) Build bioinformatics pipelines with Snakemake (김가경)
+|  4 |2016. 9.20|(R 중급 )  [ISL :  8 Tree-Based Methods](https://github.com/biospin/R_Bio/blob/master/part02/week4_160920/Tree-based%20model%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_SW_MK_Final.pdf) (황성원)
+|    |          |(R 바이오) [R for Bioinformatics : Hidden Markov Models](https://github.com/biospin/R_Bio/blob/master/part02/week4_160920/20160920_rbio_hmm.pdf) (장수경)
+|    |          |(R 고급)   [(DataAlgorithm) 3장. Top 10 List을 Spark-R로 구현](https://github.com/biospin/R_Bio/blob/master/part02/week4_160920/SparkR_chap03.Top10List.ipynb) (지용기)
+|    |          |(바이오 특강) [Build bioinformatics pipelines with Snakemake](https://github.com/biospin/R_Bio/blob/master/part02/week4_160920/Build%20bioinformatics%20pipelines%20with%20Snakemake.pdf) (김가경)
 |  5 |2016. 9.27|(바이오 특강) Heterozygote advantage in regulatory region of human genome (18:30~19:30)
-|    |          |(R 중급 )  ISL : 9 Support Vector Machines, 10 Unsupervised Learning
-|    |          |(R 바이오) R for Bioinformatics : Protein-Protein Interaction Graphs
-|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html  : Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine
+|    |          |(R 중급 )  [ISL : 9 Support Vector Machines, 10 Unsupervised Learning](https://github.com/biospin/R_Bio/blob/master/part02/week5_160927/SVM%20%2B%20Unsupervised%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_SW_MK_Final.pdf) (황성원)
+|    |          |(R 바이오) R for Bioinformatics : Protein-Protein Interaction Graphs (김가경)
+|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html  : [Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine](https://github.com/io2oi/R_Bio/blob/master/part03/week1/README.md)(이병철)
 
 ### Part 3.
 
