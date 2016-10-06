@@ -95,14 +95,14 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 
 |seq.|    날짜        |내용                                                                                                  | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016.10. 4|(R 기초) 데이터시각화 : 2 장 탐색적 자료분석
-|    |          |(R 중급 )  R 고급활용 :  제1장 R 데이터 처리
-|    |          |(R 바이오) Biomedical Data Science : 0 - Introduction, 1 - Inference  CLT in Practice까지
-|    |          |(R 고급)   (DataAlgorithm) 4장. Left Outer Join을 Spark-R로 구현
-|  2 |2016.10.11|(R 기초) 데이터시각화 : 3 장 이변량 데이터의 시각화
-|    |          |(R 중급 )  R 고급활용 :  제2장 통계계산
-|    |          |(R 바이오) Biomedical Data Science : 1 - Inference  t-tests in Practice부터
-|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html  : Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers
+|  1 |2016.10. 4|(R 기초) 데이터시각화 : 2장 [탐색적 자료분석1](https://github.com/biospin/R_Bio/blob/master/part03/week1_161004/Data_Visual/1%EC%9E%A5.%EC%8B%9C%EA%B0%81%ED%99%94.ipynb), [탐색적 자료분석2](https://github.com/biospin/R_Bio/blob/master/part03/week1_161004/Data_Visual/2.%ED%83%90%EC%83%89%EC%A0%81_%EC%9E%90%EB%A3%8C%EB%B6%84%EC%84%9D_%EB%B0%9C%ED%91%9C.ipynb) (명충민)
+|    |          |(R 중급 )  R 고급활용 :  제1장 R 데이터 처리(장혜정)
+|    |          |(R 바이오) Biomedical Data Science : 0 - Introduction, 1 - Inference  CLT in Practice까지(이승우)
+|  2 |2016.10.11|(R 기초) 데이터시각화 : 3 장 이변량 데이터의 시각화(명충민)
+|    |          |(R 중급 )  R 고급활용 :  제2장 통계계산(권기호)
+|    |          |(R 바이오) Biomedical Data Science : 1 - Inference  t-tests in Practice부터(이승우)
+|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html  : Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers(이병철)
+|    |          |(R 고급)   (DataAlgorithm) 4장. Left Outer Join을 Spark-R로 구현 (지용기)
 |  3 |2016.10.18|(R 기초) 데이터시각화 : 4 장 시계열의 시각화
 |    |          |(R 중급 )  R 고급활용 : 제3장 통계추론
 |    |          |(R 바이오) Biomedical Data Science : 2 ~ 4 - Matrix Algebra
