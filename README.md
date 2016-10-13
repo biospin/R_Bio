@@ -100,8 +100,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 바이오) Biomedical Data Science : 0 - Introduction, 1 - Inference  CLT in Practice까지(이승우)
 |  2 |2016.10.11|(R 기초) 데이터시각화 : 3 장 이변량 데이터의 시각화(명충민)
 |    |          |(R 중급 )  R 고급활용 :  제2장 통계계산(권기호)
-|    |          |(R 바이오) Biomedical Data Science : 1 - Inference  t-tests in Practice부터(이승우)
-|    |          |(R 고급)   (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html  : Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers(이병철)
+|    |          |(R 바이오) [Biomedical Data Science : 1 - Inference  t-tests in Practice부터](https://github.com/jaeseung172/Repo/blob/master/BioSpin_Presentation/%EB%B0%94%EC%9D%B4%EC%98%A4%EB%A9%94%EB%94%94%EC%BB%AC%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A402/%EB%B0%94%EC%9D%B4%EC%98%A4%EB%A9%94%EB%94%94%EC%BB%AC%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A402.md)(이승우)
+|    |          |(R 고급)   (구글 genomics) [ Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html), [발표자료](https://github.com/io2oi/R_Bio/tree/master/part03/week2)(이병철)
 |    |          |(R 고급)   (DataAlgorithm) [4장. Left Outer Join을 Spark-R로 구현 ](https://github.com/biospin/R_Bio/blob/master/part03/week1_161004/sparkR/sparkR_chap04.LeftOuterJoin.ipynb)(지용기)
 |  3 |2016.10.18|(R 기초) 데이터시각화 : 4 장 시계열의 시각화
 |    |          |(R 중급 )  R 고급활용 : 제3장 통계추론
