@@ -119,7 +119,7 @@ library(lattice)
 barchart(as.factor(autompg$cylinder))
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](fig/unnamed-chunk-3-1.png)<!-- -->
 
 세로형 막대그래프 horizontal = FALSE 옵션 사용 
 
@@ -128,7 +128,7 @@ barchart(as.factor(autompg$cylinder))
 barchart(as.factor(autompg$year), horizontal = FALSE)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](fig/unnamed-chunk-4-1.png)<!-- -->
 
 ### Histogram
 연속자료의 분포를 쉽게 파악하기 위하여 그리는 그림
@@ -139,7 +139,7 @@ histogram()
 histogram(tipping$tip)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](fig/unnamed-chunk-5-1.png)<!-- -->
 
 breaks 옵션을 이용하여 binwidth 설정
 main 옵션을 이용하여 그림의 title 지정 
@@ -149,13 +149,13 @@ main 옵션을 이용하여 그림의 title 지정
 histogram(tipping$tip, breaks = seq(0,11,0.5), main = "binwidth = 50 cent")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](fig/unnamed-chunk-6-1.png)<!-- -->
 
 ```r
 histogram(tipping$tip, breaks = seq(0,11,0.25), main = "binwidth = 25 cent")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-6-2.png)<!-- -->
+![](fig/unnamed-chunk-6-2.png)<!-- -->
 
 
 binwidth 를 달리하면 다른 패턴을 발견할 수 있다. 
@@ -165,13 +165,13 @@ binwidth 를 달리하면 다른 패턴을 발견할 수 있다.
 histogram(tipping$tip, breaks = seq(0,11,0.1), main = "binwidth = 10 cent")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](fig/unnamed-chunk-7-1.png)<!-- -->
 
 ```r
 histogram(tipping$tip, breaks = seq(0,11,0.05), main = "binwidth = 5 cent")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-7-2.png)<!-- -->
+![](fig/unnamed-chunk-7-2.png)<!-- -->
 
 ### 밀도 그림 
 - 연속자료의 분포를 파악하기 위해 그린 그림
@@ -183,7 +183,7 @@ xlab 옵션을 이용하여 X축 레이블 지정
 densityplot(autompg$mpg, xlab="mpg")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![](fig/unnamed-chunk-8-1.png)<!-- -->
 
 ## Lattice : Graph for Two variable
 
@@ -198,7 +198,7 @@ densityplot(autompg$mpg, xlab="mpg")
 xyplot(tip ~ totbill, pch = 16, data = tipping)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](fig/unnamed-chunk-9-1.png)<!-- -->
 
  " y ~ x | categorical variable"
 
@@ -207,14 +207,14 @@ xyplot(tip ~ totbill, pch = 16, data = tipping)
 xyplot(tip ~ totbill | sex, pch = 16, data = tipping)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](fig/unnamed-chunk-10-1.png)<!-- -->
 
 
 ```r
 xyplot(tip ~ totbill | sex, group = smoker, pch = c(16, 1), data = tipping)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![](fig/unnamed-chunk-11-1.png)<!-- -->
 
 ### panel 
 
@@ -240,7 +240,7 @@ xyplot(tip ~ totbill | sex + smoker,
   })
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+![](fig/unnamed-chunk-12-1.png)<!-- -->
 
 ## Continuous vs Categorical
 
@@ -254,13 +254,13 @@ bwplot()
 bwplot(cylinder ~ mpg, data = autompg)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![](fig/unnamed-chunk-13-1.png)<!-- -->
 
 ```r
 bwplot(cylinder ~ mpg, data = autompg, horizontal = FALSE)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-13-2.png)<!-- -->
+![](fig/unnamed-chunk-13-2.png)<!-- -->
 
 ### dotplot
 dotplot()
@@ -270,7 +270,7 @@ dotplot()
 dotplot(as.factor(cylinder)~mpg, data = autompg)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-14-1.png)<!-- -->
+![](fig/unnamed-chunk-14-1.png)<!-- -->
 
 ## Categorical vs Categorical
 
@@ -292,13 +292,13 @@ library(vcd)
 mosaic( ~ sex + size, data =tipping)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
+![](fig/unnamed-chunk-15-1.png)<!-- -->
 
 ```r
 mosaic( ~ size + sex, data =tipping)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-15-2.png)<!-- -->
+![](fig/unnamed-chunk-15-2.png)<!-- -->
 
 cotabplot()
 
@@ -307,7 +307,7 @@ cotabplot()
 cotabplot( ~ size + sex | smoker, data = tipping, panel = cotab_mosaic)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
+![](fig/unnamed-chunk-16-1.png)<!-- -->
 
 ## multivariate
 
@@ -322,7 +322,7 @@ autompg[, c(1,3:6)] 연속형 변수만 선택
 splom(~autompg[,c(1,3:6)], data = autompg)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
+![](fig/unnamed-chunk-17-1.png)<!-- -->
 
 group, pch, col 등의 옵션으로 점의 모양, 색깔을 그룹별로 지정
 key 옵션을 이용하여 범례 내용을 명시
@@ -339,7 +339,7 @@ splom(~autompg[c(1,3:6)], groups = cylinder , data = autompg,
      text = list(c("3","4","5","6","8"))))
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
+![](fig/unnamed-chunk-18-1.png)<!-- -->
 
 
 ### paralleplot
@@ -354,7 +354,7 @@ horizontal = FALSE 수직
 parallelplot(~ autompg[,c(1,3:6)], data = autompg, horizontal = FALSE)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-19-1.png)<!-- -->
+![](fig/unnamed-chunk-19-1.png)<!-- -->
 
 조건식을 이용 여러 그룹별로 평행좌표 그림 따로 그려 비교 
 
@@ -363,7 +363,7 @@ parallelplot(~ autompg[,c(1,3:6)], data = autompg, horizontal = FALSE)
 parallelplot(~ autompg[,c(1,3:6)] | as.factor(cylinder), data = autompg, horizontal = FALSE)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-20-1.png)<!-- -->
+![](fig/unnamed-chunk-20-1.png)<!-- -->
 
 
 ## 3D scatter plot
@@ -377,7 +377,7 @@ cloud(mpg~horsepower*displacement, data = autompg,
   screen = list(x=-80, y=70))
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
+![](fig/unnamed-chunk-21-1.png)<!-- -->
 
 ## Grammer of Graphics
 
@@ -474,7 +474,7 @@ library(ggplot2)
 qplot(length, wholeW, data = abalone)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-24-1.png)<!-- -->
+![](fig/unnamed-chunk-24-1.png)<!-- -->
 
 colour, shape
 
@@ -483,7 +483,7 @@ colour, shape
 qplot(length, wholeW, data = abalone, colour = sex, shape = sex)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-25-1.png)<!-- -->
+![](fig/unnamed-chunk-25-1.png)<!-- -->
 
 alpha
 
@@ -492,7 +492,7 @@ alpha
 qplot(length, wholeW, data = abalone, alpha=I(1/10))
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-26-1.png)<!-- -->
+![](fig/unnamed-chunk-26-1.png)<!-- -->
 
 geom = "boxplot"
 X : categorical variable
@@ -502,14 +502,14 @@ X : categorical variable
 qplot(sex, wholeW, data = abalone, geom = "boxplot")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-27-1.png)<!-- -->
+![](fig/unnamed-chunk-27-1.png)<!-- -->
 
 
 ```r
 qplot(factor(rings), wholeW, data = abalone, geom = "boxplot")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-28-1.png)<!-- -->
+![](fig/unnamed-chunk-28-1.png)<!-- -->
 
 geom = jittering
 
@@ -517,7 +517,7 @@ geom = jittering
 qplot(sex, wholeW, data = abalone, geom = "jitter")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-29-1.png)<!-- -->
+![](fig/unnamed-chunk-29-1.png)<!-- -->
 
 geom = jitter & alpha
 
@@ -526,7 +526,7 @@ geom = jitter & alpha
 qplot(sex, wholeW, data = abalone, geom = "jitter", alpha = I(1/3))
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-30-1.png)<!-- -->
+![](fig/unnamed-chunk-30-1.png)<!-- -->
 
 geom = "histogram"
 fill = categorical variable 
@@ -535,7 +535,7 @@ fill = categorical variable
 qplot(wholeW, data = abalone, geom = "histogram", binwidth = 0.05, fill = sex)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-31-1.png)<!-- -->
+![](fig/unnamed-chunk-31-1.png)<!-- -->
 
 facets = .~B
 
@@ -544,7 +544,7 @@ facets = .~B
 qplot(wholeW, data = abalone, geom = "histogram", binwidth = 0.05, facets = .~sex)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-32-1.png)<!-- -->
+![](fig/unnamed-chunk-32-1.png)<!-- -->
 
 
 ## Date, Time 
@@ -584,7 +584,7 @@ Pconsump.2006.12.17 <- Pconsump[Pconsump$Date == "17/12/2006",]
 qplot(newTime, X3, data = Pconsump.2006.12.17, geom = "line")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-34-1.png)<!-- -->
+![](fig/unnamed-chunk-34-1.png)<!-- -->
 
 color와 linetype 옵션을 이용하여 범주별로 다른 선으로 표시
 
@@ -594,7 +594,7 @@ Pconsump.12.17<- Pconsump[(Pconsump$Date == "17/12/2006" |Pconsump$Date == "17/1
 qplot(newTime, X3, data = Pconsump.12.17, color = year, geom = "line", linetype = year)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-35-1.png)<!-- -->
+![](fig/unnamed-chunk-35-1.png)<!-- -->
 
 facets = A ~. 
 
@@ -602,7 +602,7 @@ facets = A ~.
 qplot(newTime, X3, data = Pconsump, facets = Date~., geom = "line")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-36-1.png)<!-- -->
+![](fig/unnamed-chunk-36-1.png)<!-- -->
 
 ## ggplot - aesthetic mapping 
 ggplot : dataframe
@@ -633,7 +633,7 @@ geom_point()
 plot.basic + geom_point()
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-38-1.png)<!-- -->
+![](fig/unnamed-chunk-38-1.png)<!-- -->
 
 geom : geom_이름()의형태로이용
 
@@ -653,7 +653,7 @@ geom : geom_이름()의형태로이용
 plot.basic + geom_point() + geom_smooth(aes(group = sex))
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-39-1.png)<!-- -->
+![](fig/unnamed-chunk-39-1.png)<!-- -->
 
 ## stst : stat_이름( )의 형태로 이용
 
@@ -681,7 +681,7 @@ plot.stat + geom_point(shape=1) +
         fun.y="mean", geom = "point")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-40-1.png)<!-- -->
+![](fig/unnamed-chunk-40-1.png)<!-- -->
 
 fun.data = "mean_cl_normal" 
 
@@ -693,7 +693,7 @@ plot.stat + stat_summary(fun.data = "mean_cl_normal", geom="errorbar")
 ## Warning: Removed 5 rows containing missing values (geom_errorbar).
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-41-1.png)<!-- -->
+![](fig/unnamed-chunk-41-1.png)<!-- -->
 
 
 ```r
@@ -709,7 +709,7 @@ plot.stat +
  scale_color_hue("Quartile ")+scale_shape("Quartile")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-42-1.png)<!-- -->
+![](fig/unnamed-chunk-42-1.png)<!-- -->
 
 stat_bin, geom
 
@@ -723,7 +723,7 @@ plot.1D + geom_histogram() + ggtitle("geom histogram")
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-43-1.png)<!-- -->
+![](fig/unnamed-chunk-43-1.png)<!-- -->
 
 ```r
 plot.1D + stat_bin(geom = "area") + ggtitle("stat_bin, geom_area")
@@ -733,7 +733,7 @@ plot.1D + stat_bin(geom = "area") + ggtitle("stat_bin, geom_area")
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-43-2.png)<!-- -->
+![](fig/unnamed-chunk-43-2.png)<!-- -->
 
 * geom = "point", geom="line"
 
@@ -746,7 +746,7 @@ plot.1D + stat_bin(geom = "point") + ggtitle("stat_bin, geom_point")
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-44-1.png)<!-- -->
+![](fig/unnamed-chunk-44-1.png)<!-- -->
 
 ```r
 plot.1D + stat_bin(geom = "line") + ggtitle("stat_bin, geom_line")
@@ -756,7 +756,7 @@ plot.1D + stat_bin(geom = "line") + ggtitle("stat_bin, geom_line")
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-44-2.png)<!-- -->
+![](fig/unnamed-chunk-44-2.png)<!-- -->
 
 ## Position adjustment
 
@@ -777,13 +777,13 @@ plot.pos <- ggplot(tipping,aes(x = day, fill = sex, shape = sex))
 plot.pos + geom_bar(position = "stack") + ggtitle("stack") + theme(legend.position="none")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-45-1.png)<!-- -->
+![](fig/unnamed-chunk-45-1.png)<!-- -->
 
 ```r
 plot.pos+ geom_bar(position = "dodge") + ggtitle("dodge") + theme(legend.position="none ")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-45-2.png)<!-- -->
+![](fig/unnamed-chunk-45-2.png)<!-- -->
 
 * position = "fill"
 * position = "jitter"
@@ -792,13 +792,13 @@ plot.pos+ geom_bar(position = "dodge") + ggtitle("dodge") + theme(legend.positio
 plot.pos + geom_bar(position  = "fill") + ggtitle("fill") + theme(legend.position="none ")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-46-1.png)<!-- -->
+![](fig/unnamed-chunk-46-1.png)<!-- -->
 
 ```r
 plot.pos + geom_point(aes(y=totbill,color=sex,shape=sex),position="jitter") + ggtitle("jitter") + theme(legend.position="none  ")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-46-2.png)<!-- -->
+![](fig/unnamed-chunk-46-2.png)<!-- -->
 *position = "identity"
 alpha
 
@@ -808,13 +808,13 @@ plot.pos <- ggplot(tipping,aes(x   = day  , fill = sex, shape = sex))
 plot.pos + geom_bar(position  = "identity") + ggtitle("identity") + theme(legend.position="none ")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-47-1.png)<!-- -->
+![](fig/unnamed-chunk-47-1.png)<!-- -->
 
 ```r
 plot.pos + geom_bar(position  = "identity", alpha  = I(0.5)) + ggtitle("identity with alpha") + theme(legend.position="none ")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-47-2.png)<!-- -->
+![](fig/unnamed-chunk-47-2.png)<!-- -->
 
 ## Scale 
 
@@ -826,7 +826,7 @@ plot.scale1  <- ggplot(tipping,  aes(x=totbill,  y = tip, color = sex, shape = s
 plot.scale1  + scale_color_hue("Gender", labels = c("Female", "Male"))
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-48-1.png)<!-- -->
+![](fig/unnamed-chunk-48-1.png)<!-- -->
 
 Scale_color_brewer
 
@@ -834,7 +834,7 @@ Scale_color_brewer
  plot.scale1 + scale_color_brewer(palette="Set1")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-49-1.png)<!-- -->
+![](fig/unnamed-chunk-49-1.png)<!-- -->
 
 - scale_x_continuous : x축에 대한 옵션을 제시하는 함수
 - breaks = c(20,40) : 20과 40에 눈금을 표시
@@ -846,7 +846,7 @@ plot.scale2  <- ggplot(tipping,aes(x=totbill,y=tip)) + geom_point()
 plot.scale2  + scale_x_continuous(breaks=c(20,40)) + scale_y_continuous(breaks=1:10)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-50-1.png)<!-- -->
+![](fig/unnamed-chunk-50-1.png)<!-- -->
 
 - coord_trans : 각 축을 함수를 이용하여 변환할 수 있도록 하는 함수
 - xtrans = “log10” : log10 함수를 이용하여 x축을 변환
@@ -859,7 +859,7 @@ plot.scale2  + scale_x_continuous(breaks=c(20,40)) + scale_y_continuous(breaks=1
 plot.scale2 + coord_trans(x="log10",y="sqrt")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-51-1.png)<!-- -->
+![](fig/unnamed-chunk-51-1.png)<!-- -->
 
 ## Faceting 
 
@@ -872,7 +872,7 @@ plot.facet <- ggplot(tipping,aes(x = totbill, y = tip)) + geom_point()
 plot.facet +  facet_grid(sex ~ smoker , margins  = TRUE)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-52-1.png)<!-- -->
+![](fig/unnamed-chunk-52-1.png)<!-- -->
 
 facet_wrap(~A) : 하나의 범주형 변수 A를 이용하는 방법으로 ncol, nrow
 옵션을 이용하여 그림 행렬의 모양을 지정
@@ -882,7 +882,7 @@ facet_wrap(~A) : 하나의 범주형 변수 A를 이용하는 방법으로 ncol,
 plot.facet + facet_wrap(~ size, ncol = 6)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-53-1.png)<!-- -->
+![](fig/unnamed-chunk-53-1.png)<!-- -->
 
 cut_interval, cut_number 함수를 이용하여 연속변수를 범주화
 
@@ -897,13 +897,13 @@ plot.newfacet <- ggplot(tipping,aes(x=totbill,y=tip)) + geom_point()
 plot.newfacet + facet_wrap(~tipgroup1)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-54-1.png)<!-- -->
+![](fig/unnamed-chunk-54-1.png)<!-- -->
 
 ```r
 plot.newfacet + facet_wrap(~tipgroup2)
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-54-2.png)<!-- -->
+![](fig/unnamed-chunk-54-2.png)<!-- -->
 
 ## Theme
 
@@ -919,7 +919,7 @@ plot.theme <- ggplot(tipping, aes(x = totbill, y = tip))
 plot.theme + geom_point() + xlab("Total Bill") + ylab("Tip") + ggtitle("Total Bill and Tip")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-55-1.png)<!-- -->
+![](fig/unnamed-chunk-55-1.png)<!-- -->
 
 Theme 함수를 이용하여 그림의 전반적인 사항들 지정
 
@@ -931,7 +931,7 @@ Theme 함수를 이용하여 그림의 전반적인 사항들 지정
 plot.theme + geom_point() + xlab("Total Bill") + ylab("Tip") + ggtitle("Total Bill and Tip") + theme(plot.title = element_text(color = " red", face = "bold", hjust = 0))
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-56-1.png)<!-- -->
+![](fig/unnamed-chunk-56-1.png)<!-- -->
 
 last_plot : 마지막으로 그린 그림을 불러오는 함수
 theme_bw : 배경색을 흰색으로 변경하는 함수
@@ -947,7 +947,7 @@ last_plot()+theme_bw()+ theme(panel.grid.major=element_blank(),
                               axis.line  = element_line())
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-57-1.png)<!-- -->
+![](fig/unnamed-chunk-57-1.png)<!-- -->
 
 legend.position = “none” : 범례를 생략하기 위한 옵션
 
@@ -958,7 +958,7 @@ plot.theme  +
     theme(legend.position = "none ")
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-58-1.png)<!-- -->
+![](fig/unnamed-chunk-58-1.png)<!-- -->
 
 geom_text : 그림에 문자를 삽입하기 위한 함수
 expression : 수식을 표현하기 위한 함수
@@ -975,7 +975,7 @@ ggplot(tipping,aes(x=totbill,y=tip))+
           ggtitle(expression(paste(hat(beta)[0],"+",hat(beta)[1],"x")))
 ```
 
-![](ch4_r_graphics_files/figure-html/unnamed-chunk-59-1.png)<!-- -->
+![](fig/unnamed-chunk-59-1.png)<!-- -->
 
 ggsave
 
