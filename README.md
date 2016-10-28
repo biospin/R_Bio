@@ -106,11 +106,11 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |  3 |2016.10.18|(R 기초) 데이터시각화 : 4 장 시계열의 시각화
 |    |          |(R 중급 )  R 고급활용 : 제3장 통계추론
 |    |          |(R 바이오) Biomedical Data Science : 2 ~ 4 - Matrix Algebra
-|    |          |(R 고급)  (DataAlgorithm) 7장. Market Basket Analysis을 Spark-R로 구현 
-|  4 |2016.10.25|(R 기초) 데이터시각화 : 5 장 지리적 데이터의 시각화
-|    |          |(R 중급 )  R 고급활용 : 제4장 R 통계 그래픽스
-|    |          |(R 바이오) Biomedical Data Science : 5 - Linear Models
-|    |          |(R 고급) (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html  : Docs » Process Data on Google Cloud » Run SAMtools to index BAM files in Cloud Storage
+|    |          |(R 고급)  [(DataAlgorithm) 7장. Market Basket Analysis을 Spark-R로 구현](https://github.com/biospin/R_Bio/blob/master/part03/week3_161018/sparkR/sparkR_chap07.MarketBasketAnalysis.ipynb) 
+|  4 |2016.10.25|(R 기초) 데이터시각화 : 5 장 지리적 데이터의 시각화(명충민)
+|    |          |[(R 중급 )  R 고급활용 : 제4장 R 통계 그래픽스](https://github.com/biospin/R_Bio/blob/master/part03/week4_161025/ch4_r_graphics.md)(박세진)
+|    |          |(R 바이오) [Biomedical Data Science : 5 - Linear Models](https://github.com/biospin/R_Bio/blob/master/part03/week4_161025/20161025%20Linear%20model.pdf) (장수경)
+|    |          |(R 고급) (구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html  : Docs » Process Data on Google Cloud » [Run SAMtools to index BAM files in Cloud Storage](https://github.com/io2oi/R_Bio/blob/master/part03/week4/README.md) (이병철)
 
 
 ### Part 4.

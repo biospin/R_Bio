@@ -1,0 +1,16 @@
+#Java 설치
+sudo yum install java-1.7.0-openjdk-devel
+
+#Scala 설치
+wget http://www.scala-lang.org/files/archive/scala-2.10.1.tgz
+tar xvf scala-2.10.1.tgz
+sudo mv scala-2.10.1 /usr/lib
+sudo ln -s /usr/lib/scala-2.10.1 /usr/lib/scala
+export PATH=$PATH:/usr/lib/scala/bin
+scala -version
+
+#SBT 설치
+curl https://bintray.com/sbt/rpm/rpm | sudo tee /etc/yum.repos.d/bintray-sbt-rpm.repo
+sudo yum install sbt
+
+sbt 
