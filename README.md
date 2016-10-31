@@ -32,7 +32,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 - [도커로 스파크 시작하기](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark_ch02example.ipynb)
 - [빅바이오](https://github.com/biospin/BigBio)
 - [딥바이오](https://github.com/biospin/DeepBio)
-
+- [Hadoop및 Spark로 구현된 바이오인포 도구들](https://github.com/biospin/R_Bio/blob/master/reference/big_bioinfo_tool.md)
 
 ## 장소
 1. 장소: 토즈 신촌  아트레온토즈점 ( http://www.toz.co.kr/branch/main/index.htm?id=6 )
