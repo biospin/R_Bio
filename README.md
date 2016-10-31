@@ -1,6 +1,6 @@
 # 알바이오 : 바닥부터 시작하는 R + 바이오인포
 
-<img src="https://github.com/biospin/R_Bio/blob/master/datascienceman.jpg"/>
+<img src="https://github.com/biospin/R_Bio/blob/master/main01.png"/>
 
 ## 스터디 정보
 바닥부터  R과 바이오인포을 시작하여  R과 바이오인포를 마스터 하는 것을 목표로 하는  실습형  스터디입니다.   
