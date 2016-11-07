@@ -117,8 +117,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 
 |seq.|    날짜        |내용                                                                                                  | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016.11. 1|(R 기초) 데이터시각화 : 6 장 텍스트 데이터의 시각화 - 워드 클라우드
-|    |          |(R 중급 ) R 고급활용 : 제5장 R을 이용한 고급 그래픽 기법
+|  1 |2016.11. 1|(R 기초) [데이터시각화 : 6 장 텍스트 데이터의 시각화 - 워드 클라우드](https://github.com/biospin/R_Bio/blob/master/part04/week1_161101/2016.11.01.text%EC%8B%9C%EA%B0%81%ED%99%94.ipynb)
+|    |          |(R 중급 ) [R 고급활용 : 제5장 R을 이용한 고급 그래픽 기법](https://github.com/biospin/R_Bio/blob/master/part04/week1_161101/chapter5.R), [한방팩](https://github.com/biospin/R_Bio/blob/master/part04/week1_161101/%EA%B7%B8%EB%9E%98%ED%94%BD%ED%95%9C%EB%B0%A9%ED%8C%A9.R), [shiny-cheatsheet](https://github.com/biospin/R_Bio/blob/master/part04/week1_161101/shiny-cheatsheet20161101.pdf)
 |    |          |(R 바이오) Biomedical Data Science : 6 - Inference for High-Dimensional ,7 - Statistical Modeling
 |    |          |(R 고급)  (DataAlgorithm) [10장. Content-Based Recommendation: Movies을 Spark-R로 구현](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/spark/Chap09_Recommendation.ipynb)  
 |  2 |2016.11. 8|(R 기초) 데이터시각화 : 7 장 다변량 데이터의 시각화
