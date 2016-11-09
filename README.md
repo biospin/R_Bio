@@ -121,9 +121,9 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 중급 ) [R 고급활용 : 제5장 R을 이용한 고급 그래픽 기법](https://github.com/biospin/R_Bio/blob/master/part04/week1_161101/chapter5.R), [한방팩](https://github.com/biospin/R_Bio/blob/master/part04/week1_161101/%EA%B7%B8%EB%9E%98%ED%94%BD%ED%95%9C%EB%B0%A9%ED%8C%A9.R), [shiny-cheatsheet](https://github.com/biospin/R_Bio/blob/master/part04/week1_161101/shiny-cheatsheet20161101.pdf)
 |    |          |(R 바이오) Biomedical Data Science : 6 - Inference for High-Dimensional ,7 - Statistical Modeling
 |    |          |(R 고급)  (DataAlgorithm) [10장. Content-Based Recommendation: Movies을 Spark-R로 구현](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/spark/Chap09_Recommendation.ipynb)  
-|  2 |2016.11. 8|(R 기초) 데이터시각화 : 7 장 다변량 데이터의 시각화
+|  2 |2016.11. 8|(R 기초) [데이터시각화 : 7 장 다변량 데이터의 시각화](https://github.com/biospin/R_Bio/blob/master/part04/week2_161108/2016.11.07.%EC%8B%A0%EC%B4%8C.%EB%8B%A4%EB%B3%80%EB%9F%89%EB%8D%B0%EC%9D%B4%ED%84%B0.%EC%B0%A8%ED%8A%B8.ipynb)
 |    |          |(R 중급 )  R 고급활용 : 제6장 일반화 선형모형
-|    |          |(R 바이오) Biomedical Data Science : 8 - Distance and Dimension Reduction  
+|    |          |(R 바이오) [Biomedical Data Science :7 - Statistical Modeling](https://github.com/biospin/R_Bio/blob/master/part04/week2_161108/Multiple%20Testing_Washingtonuniv_%ED%95%84%EA%B8%B0.pdf)    
 |  3 |2016.11.15|(R 기초) 데이터시각화 : 8 장 웹을 이용한 동적 · 대화형 데이터 시각화
 |    |          |(R 바이오) Biomedical Data Science :  9 - Practical Machine Learning, 10 - Batch Effects  
 |    |          |(R 고급)   (DataAlgorithm) 11장. Smarter Email Marketing with the Markov Model을 Spark-R로 구현
