@@ -124,7 +124,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |  2 |2016.11. 8|(R 기초) [데이터시각화 : 7 장 다변량 데이터의 시각화](https://github.com/biospin/R_Bio/blob/master/part04/week2_161108/2016.11.07.%EC%8B%A0%EC%B4%8C.%EB%8B%A4%EB%B3%80%EB%9F%89%EB%8D%B0%EC%9D%B4%ED%84%B0.%EC%B0%A8%ED%8A%B8.ipynb)
 |    |          |(R 중급 )  [R 고급활용 : 제6장 일반화 선형모형](https://github.com/biospin/R_Bio/blob/master/part04/week2_161108/%EA%B3%A0%EA%B8%89R%ED%99%9C%EC%9A%A9_ch7_%EC%9D%BC%EB%B0%98%ED%99%94%EC%84%A0%ED%98%95%EB%AA%A8%ED%98%95.pdf)
 |    |          |(R 바이오) [Biomedical Data Science :7 - Statistical Modeling](https://github.com/biospin/R_Bio/blob/master/part04/week2_161108/Multiple%20Testing_Washingtonuniv_%ED%95%84%EA%B8%B0.pdf)    
-|  3 |2016.11.15|(R 기초) 데이터시각화 : 8 장 웹을 이용한 동적 · 대화형 데이터 시각화
+|  3 |2016.11.15|(R 기초) [데이터시각화 : 8 장 웹을 이용한 동적 · 대화형 데이터 시각화](https://github.com/biospin/R_Bio/blob/master/part04/week3_161115/R%EA%B8%B0%EC%B4%88.ipynb)
 |    |          |(R 바이오) Biomedical Data Science :7 - Statistical Modeling    
 |    |          |(R 고급) [(DataAlgorithm) 11장. Smarter Email Marketing with the Markov Model을 Spark-R로 구현](https://github.com/biospin/R_Bio/blob/master/part04/week3_161115/SparkR/sparkR_chap11.SmarterEmailMarketing.ipynb)
 |  4 |2016.11.22|(R 중급 )  R 고급활용 : 제6장 일반화 선형모형 
