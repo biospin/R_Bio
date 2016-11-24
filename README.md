@@ -126,13 +126,11 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 바이오) [Biomedical Data Science :7 - Statistical Modeling](https://github.com/biospin/R_Bio/blob/master/part04/week2_161108/Multiple%20Testing_Washingtonuniv_%ED%95%84%EA%B8%B0.pdf)    
 |  3 |2016.11.15|(R 기초) [데이터시각화 : 8 장 웹을 이용한 동적 · 대화형 데이터 시각화](https://github.com/biospin/R_Bio/blob/master/part04/week3_161115/R%EA%B8%B0%EC%B4%88.ipynb)
 |    |          |(R 바이오) Biomedical Data Science :7 - Statistical Modeling    
-|    |          |(R 고급) [(DataAlgorithm) 11장. Smarter Email Marketing with the Markov Model을 Spark-R로 구현](https://github.com/biospin/R_Bio/blob/master/part04/week3_161115/SparkR/sparkR_chap11.SmarterEmailMarketing.ipynb)
 |  4 |2016.11.22|(R 중급 )  R 고급활용 : 제6장 일반화 선형모형 
-|    |          |(R 중급 )  R 고급활용 : 제7장 분류분석
+|    |          |(R 고급) [(DataAlgorithm) 11장. Smarter Email Marketing with the Markov Model을 Spark-R로 구현](https://github.com/biospin/R_Bio/blob/master/part04/week3_161115/SparkR/sparkR_chap11.SmarterEmailMarketing.ipynb)
 |    |          |(R 바이오) Biomedical Data Science :8 - Distance and Dimension Reduction  
-|  5 |2016.11.29|(R 바이오) 9 - Practical Machine Learning, 10 - Batch Effects
-|    |          |(R 바이오) 525.6x: High-performance computing for reproducible genomics with Bioconductor (Week1,2)
-|    |          |(R 바이오) 525.6x: High-performance computing for reproducible genomics with Bioconductor (Week3,4)
+|  5 |2016.11.29|(R 중급 )  R 고급활용 : 제6장 일반화 선형모형
+|    |          |(R 중급 )  R 고급활용 : 제7장 분류분석
 |    |          |(R 고급)   (DataAlgorithm) 12장. K-Means Clustering을 Spark-R로 구현
 
 
