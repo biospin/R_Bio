@@ -14,17 +14,25 @@ output:
 sudo yum -y install libcurl-devel
 ```
 
+- ubuntu 16.04
+- 사전 준비
+```{bash eval=FALSE}
+sudo apt-get install libcurl4-gnutls-dev
+```
+
 
 ```{r   eval=FALSE}  
 install.packages("sparklyr" , repos = 'http://cran.nexr.com') 
+install.packages("DBI" , repos = 'http://cran.nexr.com') 
 ```
 
 ```{r}
 library(sparklyr)
-# spark_install(version = "1.6.2")
+#spark_available_versions()
+#spark_install(version = "1.6.1")
 
 if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
-  Sys.setenv(SPARK_HOME = "/home/goodmit/spark")
+  Sys.setenv(SPARK_HOME = "/home/biospin/.cache/spark/spark-1.6.1-bin-hadoop2.6")
 }
 sc <- spark_connect(master = "local")
 ```
