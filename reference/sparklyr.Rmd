@@ -1,16 +1,18 @@
 ---
 title: "sparklyr"
-output: html_notebook
+output:
+  word_document: default
+  html_notebook: default
 ---
 
 ### sparklyr — R interface for Apache Spark 의 설치와 사용법
 
-- 사전 준비 
+- CentOS 6.7
+- 사전 준비
 
 ```{bash  eval=FALSE}
 sudo yum -y install libcurl-devel
 ```
-
 
 
 ```{r   eval=FALSE}  
@@ -18,7 +20,6 @@ install.packages("sparklyr" , repos = 'http://cran.nexr.com')
 ```
 
 ```{r}
-detach("package:SparkR")
 library(sparklyr)
 # spark_install(version = "1.6.2")
 
@@ -76,5 +77,46 @@ ggplot(delay, aes(dist, delay)) +
   geom_point(aes(size = count), alpha = 1/2) +
   geom_smooth() +
   scale_size_area(max_size = 2)
+```
+
+
+### spark + R 의 장점
+- Spark에서 병렬처리가 가능하도록 구현한 머신러닝 LIB을 사용하고, 결과를 R의 시각화 패키지로 보여줌.
+
+#### K-Means Clustering
+
+```{r}
+kmeans_model <- iris_tbl %>%
+  select(Petal_Width, Petal_Length) %>%
+  ml_kmeans(centers = 3)
+
+# print our model fit
+print(kmeans_model)
+```
+
+```{r}
+predicted <- sdf_predict(kmeans_model, iris_tbl) %>%  collect
+
+table(predicted$Species, predicted$prediction)
+```
+
+```{r}
+# plot cluster membership
+sdf_predict(kmeans_model) %>%
+  collect() %>%
+  ggplot(aes(Petal_Length, Petal_Width)) +
+  geom_point(aes(Petal_Width, Petal_Length, col = factor(prediction + 1)),
+             size = 2, alpha = 0.5) + 
+  geom_point(data = kmeans_model$centers, aes(Petal_Width, Petal_Length),
+             col = scales::muted(c("red", "green", "blue")),
+             pch = 'x', size = 12) +
+  scale_color_discrete(name = "Predicted Cluster",
+                       labels = paste("Cluster", 1:3)) +
+  labs(
+    x = "Petal Length",
+    y = "Petal Width",
+    title = "K-Means Clustering",
+    subtitle = "Use Spark.ML to predict cluster membership with the iris dataset."
+  )
 ```
 

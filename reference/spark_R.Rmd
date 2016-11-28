@@ -1,8 +1,9 @@
 ---
-title: 'spark + R'
+title: "spark + R"
 output:
-  html_document: default
+  word_document: default
   html_notebook: default
+  html_document: default
 ---
 ### 발표 내용 
 spark + R 기본 사용법
@@ -10,8 +11,8 @@ spark + R 기본 사용법
 기존 스터디 내용 : https://github.com/biospin/R_Bio
 
 ### R에서 spark 을 연동 방법
-- SparkR (R on Spark) : http://spark.apache.org/docs/latest/sparkr.html
-- sparklyr — R interface for Apache Spark : http://spark.rstudio.com/
+- 1. SparkR (R on Spark) : http://spark.apache.org/docs/latest/sparkr.html
+- 2. sparklyr — R interface for Apache Spark : http://spark.rstudio.com/
 
 
 ### SparkR (R on Spark)의 설치와 사용법
@@ -26,10 +27,13 @@ spark + R 기본 사용법
 wget http://d3kbcqa49mib13.cloudfront.net/spark-2.0.2-bin-hadoop2.7.tgz 
 tar xvf spark-2.0.2-bin-hadoop2.7.tgz 
 ln -s  spark-2.0.2-bin-hadoop2.7   spark
+
+sudo vi /etc/hosts
+127.0.0.1   {myhostName}
 ```
 
 
-
+- Spark에서 제공하는 R과 lib을 사용함.
 ```{r}
 if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
   Sys.setenv(SPARK_HOME = "/home/goodmit/spark")
@@ -73,11 +77,6 @@ df
 head(select(df, df$eruptions))
 ```
 
-```{r}
-# You can also pass in column name as strings
-head(select(df, "eruptions"))
-
-```
 
 ```{r}
 # Filter the SparkDataFrame to only retain rows with wait times shorter than 50 mins
@@ -107,8 +106,10 @@ head(df)
 
 #### spark + R 의 단점
 
-- MapReduce방식의 코드와 dataframe을 을 사용할때 차이점
-- https://github.com/biospin/R_Bio/blob/master/part03/week1_161004/sparkR/sparkR_chap04.LeftOuterJoin.ipynb
+- R로 MapReduce방식의 코드 구현 예시
+    - https://github.com/biospin/R_Bio/blob/master/part02/week4_160920/SparkR_chap03.Top10List.ipynb
+- MapReduce방식의 코드와 dataframe을 사용할때 차이점
+    - https://github.com/biospin/R_Bio/blob/master/part03/week1_161004/sparkR/sparkR_chap04.LeftOuterJoin.ipynb
 
-#### spark + R 의 장점
+
 
