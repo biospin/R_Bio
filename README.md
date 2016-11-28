@@ -131,6 +131,6 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfRy1FRWp4MlJwbWs
 |    |          |(R 바이오) Biomedical Data Science :8 - Distance and Dimension Reduction  (명충민)
 |  5 |2016.11.29|(R 중급 )  R 고급활용 : 제6장 일반화 선형모형(박세진)
 |    |          |(R 중급 )  R 고급활용 : 제7장 분류분석(장수경)
-|    |          |(R 고급)   (DataAlgorithm) 12장. K-Means Clustering을 Spark-R로 구현(지용기)
+|    |          |(R 고급) [(DataAlgorithm) 12장. K-Means Clustering을 Spark-R로 구현(지용기)](https://github.com/biospin/R_Bio/blob/master/part04/week5_161129/sparkR/sparkR_chap11.KMeansClustering.pdf)
 
 
